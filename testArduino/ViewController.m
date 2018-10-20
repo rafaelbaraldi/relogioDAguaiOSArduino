@@ -132,7 +132,7 @@
             
             messtoshow=[NSString stringWithFormat:@"Bluetooth is currently powered on and available to use."];
             
-            [_centrallManager scanorPeripheralsWithServices:nil options:@{ CBCentralManagerScanOptionAllowDuplicatesKey :@NO}];
+            [_centrallManager scanForPeripheralsWithServices:nil options:@{ CBCentralManagerScanOptionAllowDuplicatesKey :@NO}];
             
             NSLog(@"%@",messtoshow);
             break;
