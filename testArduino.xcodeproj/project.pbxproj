@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F08A55A215FF47900939F94 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F08A559215FF47900939F94 /* LoadingViewController.m */; };
+		2F08A55C215FF4C900939F94 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F08A55B215FF4C800939F94 /* loading.json */; };
+		2F08A562215FFA7500939F94 /* RelogioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F08A561215FFA7500939F94 /* RelogioViewController.m */; };
+		2F08A565215FFB3C00939F94 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F08A564215FFB3C00939F94 /* ListTableViewController.m */; };
+		2F08A567215FFD4F00939F94 /* water_loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F08A566215FFD4F00939F94 /* water_loader.json */; };
+		2F3252851CF23DF500C34DE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3252841CF23DF500C34DE0 /* main.m */; };
+		2F3252881CF23DF500C34DE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3252871CF23DF500C34DE0 /* AppDelegate.m */; };
+		2F32528B1CF23DF500C34DE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F32528A1CF23DF500C34DE0 /* ViewController.m */; };
+		2F32528E1CF23DF500C34DE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F32528C1CF23DF500C34DE0 /* Main.storyboard */; };
+		2F3252901CF23DF500C34DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F32528F1CF23DF500C34DE0 /* Assets.xcassets */; };
+		2F3252931CF23DF500C34DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3252911CF23DF500C34DE0 /* LaunchScreen.storyboard */; };
+		2F32529E1CF23DF500C34DE0 /* testArduinoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F32529D1CF23DF500C34DE0 /* testArduinoTests.m */; };
+		3986F84259414325E3977AFE /* libPods-testArduinoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 352D8C31B34F22C7D8ED37BB /* libPods-testArduinoTests.a */; };
+		8438C829A9FF9905841FB75E /* libPods-testArduino.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1752946453712167CAC63822 /* libPods-testArduino.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F32529A1CF23DF500C34DE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F3252781CF23DF500C34DE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F32527F1CF23DF500C34DE0;
+			remoteInfo = testArduino;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1752946453712167CAC63822 /* libPods-testArduino.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testArduino.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F08A558215FF47900939F94 /* LoadingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
+		2F08A559215FF47900939F94 /* LoadingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
+		2F08A55B215FF4C800939F94 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		2F08A560215FFA7500939F94 /* RelogioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RelogioViewController.h; sourceTree = "<group>"; };
+		2F08A561215FFA7500939F94 /* RelogioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelogioViewController.m; sourceTree = "<group>"; };
+		2F08A563215FFB3C00939F94 /* ListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		2F08A564215FFB3C00939F94 /* ListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		2F08A566215FFD4F00939F94 /* water_loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = water_loader.json; sourceTree = "<group>"; };
+		2F3252801CF23DF500C34DE0 /* testArduino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testArduino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3252841CF23DF500C34DE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F3252861CF23DF500C34DE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F3252871CF23DF500C34DE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F3252891CF23DF500C34DE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F32528A1CF23DF500C34DE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F32528D1CF23DF500C34DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F32528F1CF23DF500C34DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F3252921CF23DF500C34DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F3252941CF23DF500C34DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3252991CF23DF500C34DE0 /* testArduinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testArduinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F32529D1CF23DF500C34DE0 /* testArduinoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testArduinoTests.m; sourceTree = "<group>"; };
+		2F32529F1CF23DF500C34DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		352D8C31B34F22C7D8ED37BB /* libPods-testArduinoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testArduinoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		611796EDE78136BE532D1006 /* Pods-testArduino.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testArduino.release.xcconfig"; path = "Pods/Target Support Files/Pods-testArduino/Pods-testArduino.release.xcconfig"; sourceTree = "<group>"; };
+		93B7504BCAA59AB4C3A3E87C /* Pods-testArduinoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testArduinoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testArduinoTests/Pods-testArduinoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D5B890876B18959A0999E1FD /* Pods-testArduino.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testArduino.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testArduino/Pods-testArduino.debug.xcconfig"; sourceTree = "<group>"; };
+		F3D0645A7A93149BAA2F2AB2 /* Pods-testArduinoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testArduinoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testArduinoTests/Pods-testArduinoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F32527D1CF23DF500C34DE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8438C829A9FF9905841FB75E /* libPods-testArduino.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3252961CF23DF500C34DE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3986F84259414325E3977AFE /* libPods-testArduinoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F3252771CF23DF500C34DE0 = {
+			isa = PBXGroup;
+			children = (
+				2F3252821CF23DF500C34DE0 /* testArduino */,
+				2F32529C1CF23DF500C34DE0 /* testArduinoTests */,
+				2F3252811CF23DF500C34DE0 /* Products */,
+				CFB5EA1E88744AF38EA018EA /* Pods */,
+				A911CBDBE8D340C6D7DC98EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F3252811CF23DF500C34DE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F3252801CF23DF500C34DE0 /* testArduino.app */,
+				2F3252991CF23DF500C34DE0 /* testArduinoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F3252821CF23DF500C34DE0 /* testArduino */ = {
+			isa = PBXGroup;
+			children = (
+				2F3252861CF23DF500C34DE0 /* AppDelegate.h */,
+				2F3252871CF23DF500C34DE0 /* AppDelegate.m */,
+				2F3252891CF23DF500C34DE0 /* ViewController.h */,
+				2F32528A1CF23DF500C34DE0 /* ViewController.m */,
+				2F32528C1CF23DF500C34DE0 /* Main.storyboard */,
+				2F32528F1CF23DF500C34DE0 /* Assets.xcassets */,
+				2F3252911CF23DF500C34DE0 /* LaunchScreen.storyboard */,
+				2F3252941CF23DF500C34DE0 /* Info.plist */,
+				2F08A55B215FF4C800939F94 /* loading.json */,
+				2F08A566215FFD4F00939F94 /* water_loader.json */,
+				2F3252831CF23DF500C34DE0 /* Supporting Files */,
+				2F08A558215FF47900939F94 /* LoadingViewController.h */,
+				2F08A559215FF47900939F94 /* LoadingViewController.m */,
+				2F08A560215FFA7500939F94 /* RelogioViewController.h */,
+				2F08A561215FFA7500939F94 /* RelogioViewController.m */,
+				2F08A563215FFB3C00939F94 /* ListTableViewController.h */,
+				2F08A564215FFB3C00939F94 /* ListTableViewController.m */,
+			);
+			path = testArduino;
+			sourceTree = "<group>";
+		};
+		2F3252831CF23DF500C34DE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F3252841CF23DF500C34DE0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F32529C1CF23DF500C34DE0 /* testArduinoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F32529D1CF23DF500C34DE0 /* testArduinoTests.m */,
+				2F32529F1CF23DF500C34DE0 /* Info.plist */,
+			);
+			path = testArduinoTests;
+			sourceTree = "<group>";
+		};
+		A911CBDBE8D340C6D7DC98EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1752946453712167CAC63822 /* libPods-testArduino.a */,
+				352D8C31B34F22C7D8ED37BB /* libPods-testArduinoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFB5EA1E88744AF38EA018EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5B890876B18959A0999E1FD /* Pods-testArduino.debug.xcconfig */,
+				611796EDE78136BE532D1006 /* Pods-testArduino.release.xcconfig */,
+				F3D0645A7A93149BAA2F2AB2 /* Pods-testArduinoTests.debug.xcconfig */,
+				93B7504BCAA59AB4C3A3E87C /* Pods-testArduinoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F32527F1CF23DF500C34DE0 /* testArduino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F3252A21CF23DF500C34DE0 /* Build configuration list for PBXNativeTarget "testArduino" */;
+			buildPhases = (
+				11F6972639020255F2D9BC93 /* [CP] Check Pods Manifest.lock */,
+				2F32527C1CF23DF500C34DE0 /* Sources */,
+				2F32527D1CF23DF500C34DE0 /* Frameworks */,
+				2F32527E1CF23DF500C34DE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testArduino;
+			productName = testArduino;
+			productReference = 2F3252801CF23DF500C34DE0 /* testArduino.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F3252981CF23DF500C34DE0 /* testArduinoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F3252A51CF23DF500C34DE0 /* Build configuration list for PBXNativeTarget "testArduinoTests" */;
+			buildPhases = (
+				839B5CD11CA943FD2B193831 /* [CP] Check Pods Manifest.lock */,
+				2F3252951CF23DF500C34DE0 /* Sources */,
+				2F3252961CF23DF500C34DE0 /* Frameworks */,
+				2F3252971CF23DF500C34DE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F32529B1CF23DF500C34DE0 /* PBXTargetDependency */,
+			);
+			name = testArduinoTests;
+			productName = testArduinoTests;
+			productReference = 2F3252991CF23DF500C34DE0 /* testArduinoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F3252781CF23DF500C34DE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rafael BAraldi";
+				TargetAttributes = {
+					2F32527F1CF23DF500C34DE0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = JQSFQ3P5HG;
+					};
+					2F3252981CF23DF500C34DE0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2F32527F1CF23DF500C34DE0;
+					};
+				};
+			};
+			buildConfigurationList = 2F32527B1CF23DF500C34DE0 /* Build configuration list for PBXProject "testArduino" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F3252771CF23DF500C34DE0;
+			productRefGroup = 2F3252811CF23DF500C34DE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F32527F1CF23DF500C34DE0 /* testArduino */,
+				2F3252981CF23DF500C34DE0 /* testArduinoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F32527E1CF23DF500C34DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F08A567215FFD4F00939F94 /* water_loader.json in Resources */,
+				2F3252931CF23DF500C34DE0 /* LaunchScreen.storyboard in Resources */,
+				2F3252901CF23DF500C34DE0 /* Assets.xcassets in Resources */,
+				2F08A55C215FF4C900939F94 /* loading.json in Resources */,
+				2F32528E1CF23DF500C34DE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3252971CF23DF500C34DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11F6972639020255F2D9BC93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testArduino-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		839B5CD11CA943FD2B193831 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testArduinoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F32527C1CF23DF500C34DE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F08A562215FFA7500939F94 /* RelogioViewController.m in Sources */,
+				2F32528B1CF23DF500C34DE0 /* ViewController.m in Sources */,
+				2F3252881CF23DF500C34DE0 /* AppDelegate.m in Sources */,
+				2F3252851CF23DF500C34DE0 /* main.m in Sources */,
+				2F08A55A215FF47900939F94 /* LoadingViewController.m in Sources */,
+				2F08A565215FFB3C00939F94 /* ListTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3252951CF23DF500C34DE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F32529E1CF23DF500C34DE0 /* testArduinoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F32529B1CF23DF500C34DE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F32527F1CF23DF500C34DE0 /* testArduino */;
+			targetProxy = 2F32529A1CF23DF500C34DE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F32528C1CF23DF500C34DE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F32528D1CF23DF500C34DE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F3252911CF23DF500C34DE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F3252921CF23DF500C34DE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F3252A01CF23DF500C34DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F3252A11CF23DF500C34DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F3252A31CF23DF500C34DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B890876B18959A0999E1FD /* Pods-testArduino.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = testArduino/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RB.testArduinoHm10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		2F3252A41CF23DF500C34DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 611796EDE78136BE532D1006 /* Pods-testArduino.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = testArduino/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RB.testArduinoHm10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		2F3252A61CF23DF500C34DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3D0645A7A93149BAA2F2AB2 /* Pods-testArduinoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testArduinoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RB.testArduinoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testArduino.app/testArduino";
+			};
+			name = Debug;
+		};
+		2F3252A71CF23DF500C34DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93B7504BCAA59AB4C3A3E87C /* Pods-testArduinoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testArduinoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RB.testArduinoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testArduino.app/testArduino";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F32527B1CF23DF500C34DE0 /* Build configuration list for PBXProject "testArduino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3252A01CF23DF500C34DE0 /* Debug */,
+				2F3252A11CF23DF500C34DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F3252A21CF23DF500C34DE0 /* Build configuration list for PBXNativeTarget "testArduino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3252A31CF23DF500C34DE0 /* Debug */,
+				2F3252A41CF23DF500C34DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F3252A51CF23DF500C34DE0 /* Build configuration list for PBXNativeTarget "testArduinoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3252A61CF23DF500C34DE0 /* Debug */,
+				2F3252A71CF23DF500C34DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F3252781CF23DF500C34DE0 /* Project object */;
+}
